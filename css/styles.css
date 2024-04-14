@@ -430,7 +430,6 @@ header {
 .footer-flex {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-icons-text {
@@ -443,8 +442,13 @@ header {
 
 .footer-icons-box {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
+  font-weight: 500;
+}
+
+.footer-text-box {
+  margin-right: 120px;
 }
 .footer-icons {
   fill: #f4f4fd;
