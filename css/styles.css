@@ -438,13 +438,13 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .footer-icons-box {
   display: flex;
   gap: 16px;
   justify-content: center;
-  font-weight: 500;
 }
 
 .footer-text-box {
@@ -465,7 +465,10 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons-wrap:hover,
+.footer-icons-wrap:hover {
+  background-color: #31d0aa;
+}
+
 .footer-icons-wrap:focus {
   background-color: #31d0aa;
 }
